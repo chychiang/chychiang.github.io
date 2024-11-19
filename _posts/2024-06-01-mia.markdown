@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Map It Anywhere (MIA): Empowering Bird's Eye View Mapping using Large-scale Public Data"
+date:   2024-06-01 22:21:59 +00:00
+image: /images/mia.png
+categories: research
+author: "Benjamin Chiang"
+venue: "NeurIPS"
+authors: "Cherie Ho, Jiaye Zou, Omar Alama, Sai Mitheran Jagadesh Kumar, <strong>Benjamin Chiang</strong>, Taneesh Gupta, Chen Wang, Nikhil Keetha, Katia Sycara, Sebastian Scherer"
+subtitle: "Dynamics based 3D skeletal hand tracking"
+arxiv: https://arxiv.org/abs/2407.08726
+code: https://github.com/MapItAnywhere/MapItAnywhere
+website: https://mapitanywhere.github.io/
+---
+
+Map It Anywhere (MIA) is a data engine that leverages Mapillary and OpenStreetMap to create a 1.2 million-pair dataset for Bird's Eye View (BEV) map prediction, enabling diverse and scalable training data. Models trained using MIA's dataset achieved 35% better zero-shot performance over existing baselines, demonstrating its potential to improve autonomous navigation.

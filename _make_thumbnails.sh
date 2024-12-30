@@ -4,4 +4,4 @@
 # done
 
 
-# convert images/mia.png -thumbnail 160x160^ -gravity center -extent 160x160 output.png
+convert images/gen-street.png -thumbnail 160x160^ -extent 160x160 gen-street.png

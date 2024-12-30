@@ -2,15 +2,7 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
+  {% include gtag.html %}
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -34,18 +26,7 @@
               <h1>
                 Cheng-Yu (Benjamin) Chiang
               </h1>
-              <p>I am a 2nd year Master's student studying <a href="https://www.ece.cmu.edu/">Electrical and Computer Engineering</a> at <a href="https://www.cmu.edu/">Carnegie Mellon University</a> working on leveraging large scale data for artificial intelligence.
-              </p>
-              <p>I recieved my B.S. in Electrical Engineering from <a href="https://www.ece.cmu.edu/">University of California, San Diego</a> in 2023.
-              </p>
-              <p>
-                During my internships, I worked closely with research and product teams to build scalable data pipelines, 
-                resolve data bottlenecks, train machine learning models, and present insights through interactive, user-friendly visualizations.
-              </p>
-              <p>
-                I am passionate about the intersection of artificial intelligence and electrical engineering, focusing 
-                on developing intelligent, deployable solutions that bridge software and hardware for real-world impact.
-              </p>
+              {% include self_intro.html %}
               <p style="text-align:center">
                 <a href="mailto:bechia9207@gmail.com">Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/chychiang">GitHub</a> &nbsp;/&nbsp;
@@ -53,9 +34,9 @@
                 <a href="https://www.linkedin.com/in/chengyuchiang/"> LinkedIn </a>
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
+            {{/*  <td style="padding:2.5%;width:40%;max-width:40%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/circle_bw_crop.jpg">
-            </td>
+            </td>  */}}
           </tr>
         </table>
 
